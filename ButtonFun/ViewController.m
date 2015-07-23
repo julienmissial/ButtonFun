@@ -47,10 +47,8 @@
         }
     }
     
-    for(UIButton *button in buttonGrid) {
-        NSLog(@"adding button to screen?\n");
-        [self.view addSubview:button];
-    }
+    for(UIButton *button in buttonGrid) [self.view addSubview:button];
+    
     
 }
 

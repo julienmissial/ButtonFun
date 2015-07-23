@@ -13,6 +13,7 @@
 		84F13A691B6059BA005394BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F13A681B6059BA005394BE /* Images.xcassets */; };
 		84F13A6C1B6059BA005394BE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F13A6A1B6059BA005394BE /* LaunchScreen.xib */; };
 		84F13A781B6059BA005394BE /* ButtonFunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F13A771B6059BA005394BE /* ButtonFunTests.m */; };
+		84F390371B61226C001AE098 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F390351B61226C001AE098 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		84F13A711B6059BA005394BE /* ButtonFunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonFunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F13A761B6059BA005394BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84F13A771B6059BA005394BE /* ButtonFunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonFunTests.m; sourceTree = "<group>"; };
+		84F390361B61226C001AE098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		84F13A5A1B6059BA005394BE /* ButtonFun */ = {
 			isa = PBXGroup;
 			children = (
+				84F390351B61226C001AE098 /* Main.storyboard */,
 				84F13A5F1B6059BA005394BE /* AppDelegate.h */,
 				84F13A601B6059BA005394BE /* AppDelegate.m */,
 				84F13A621B6059BA005394BE /* ViewController.h */,
@@ -196,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F390371B61226C001AE098 /* Main.storyboard in Resources */,
 				84F13A6C1B6059BA005394BE /* LaunchScreen.xib in Resources */,
 				84F13A691B6059BA005394BE /* Images.xcassets in Resources */,
 			);
@@ -246,6 +250,14 @@
 				84F13A6B1B6059BA005394BE /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		84F390351B61226C001AE098 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84F390361B61226C001AE098 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -406,6 +418,7 @@
 				84F13A7D1B6059BA005394BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84F13A7E1B6059BA005394BE /* Build configuration list for PBXNativeTarget "ButtonFunTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +427,7 @@
 				84F13A801B6059BA005394BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
